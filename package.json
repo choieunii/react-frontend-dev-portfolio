@@ -1,6 +1,6 @@
 {
   "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",
+  "homepage": "https://github.com/choieunii/react-frontend-dev-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "devicon": "^2.12.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
@@ -43,8 +44,11 @@
     ]
   },
   "devDependencies": {
+    "@iconify-icons/cib": "^1.1.0",
+    "@iconify-icons/fa-brands": "^1.1.0",
+    "@iconify-icons/la": "^1.1.0",
     "@iconify/icons-logos": "^1.0.12",
-    "@iconify/react": "^1.1.3",
+    "@iconify/react": "^1.1.4",
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   }
