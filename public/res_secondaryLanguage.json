@@ -108,9 +108,17 @@
       "mainTech": ["react / nodejs"],
       "technologies": ["react", "nodejs", "javascript", "mongodb"]
     },
+
     {
       "title": "달고나 커뮤니티",
       "company": "대외활동",
+      "years": "2020-1",
+      "mainTech": ["react / nodejs"],
+      "technologies": ["react"]
+    },
+    {
+      "title": "JAVA TA",
+      "company": "조교활동",
       "years": "2020-1",
       "mainTech": ["react / nodejs"],
       "technologies": ["react"]
