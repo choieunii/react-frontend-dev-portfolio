@@ -3,10 +3,12 @@ import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
 import springIcon from "@iconify-icons/cib/spring";
 import nodeJs from "@iconify-icons/fa-brands/node-js";
-import profilepic from "../images/eunji1.jpg";
 
 class About extends Component {
   render() {
+    if (this.props.sharedBasicInfo) {
+      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+    }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
